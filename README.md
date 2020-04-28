@@ -46,3 +46,4 @@
 У функции <img src="https://bit.ly/3eQMkmJ" align="center" border="0" alt="f( x_{1} , x_{2} , x_{3} ) =  x^{2}_{1}  + 8x_{1} + 5x^{2}_{2}  + 7x^{2}_{3}  + 119x_{3} + 531.75,    [ x_{1} = 8,  x_{2} = -2,  x_{3}  = 6]" width="660" height="26" /> была найдена точка минимума [-4, 0, -8.5] и значение в ней, равное 10 за семь итерациий с точностью 1е-4 при начальной точке [8, -2, 6].
 
 ![https://github.com/IvanKhodin/lab6/blob/master/5AD48CCF-FC09-4640-9189-71FAE8829A91](https://github.com/IvanKhodin/lab6/blob/master/5AD48CCF-FC09-4640-9189-71FAE8829A91.jpeg)
+![https://github.com/IvanKhodin/lab6/blob/master/5E3095B8-A8BB-40C3-BF84-BCA3686BD8E7](https://github.com/IvanKhodin/lab6/blob/master/5E3095B8-A8BB-40C3-BF84-BCA3686BD8E7.jpeg)
