@@ -4,29 +4,22 @@
 
 ## Вариант № 9
 
-Задание: Найти точку минимума функции f(x1, x2, x3) =x21+ 8x1+ 5x22+ 7x23+ 119.0x3+ 531.75,[x1= 8, x2=−2, x3= 6].
-*** методом наискорейшего спуска. Для одномерной минимизации использовать метод квадратичной интерполяции. Для поиска интервала унимолдальности использовать алгоритм скользящего окна.
+Задание: Найти точку минимума функции <img src="https://bit.ly/3eQMkmJ" align="center" border="0" alt="f( x_{1} , x_{2} , x_{3} ) =  x^{2}_{1}  + 8x_{1} + 5x^{2}_{2}  + 7x^{2}_{3}  + 119x_{3} + 531.75,    [ x_{1} = 8,  x_{2} = -2,  x_{3}  = 6]" width="660" height="26" /> методом наискорейшего спуска. Для одномерной минимизации использовать метод квадратичной интерполяции. Для поиска интервала унимолдальности использовать алгоритм скользящего окна.
 В окрестности точки минимума построить линии уровня и траекторию поиска на одном графике.  
 
 ## Теоретическая часть
-Для выполнения работы необходима теоретическая база и понимание работы перечисленных в задании методов:
 
-Градиент функции в точке-вектор, координаты которого-это частные производные по соответствующим аргументам(их значения в данной точке).
-<img src="/formul/5df3aa1a3bbbe0a459b3934dd992fb99.svg?invert_in_darkmode&sanitize=true" align=middle width=181.02647804999998pt height=37.48585995pt/>
-Процессы приближенного решения задачи можно представить в виде (итерационные)
-<img src="/formul/000f70ab12267b8e12a0b7011d0f438e.svg?invert_in_darkmode&sanitize=true" align=middle width=127.97846655pt height=20.60273655pt/>, 
+Для успешного выполнения работы необходима теоретическая база и понимание работы перечисленных в задании методов:
 
-где <img src="/formul/c81f39379f41391225416f647afe2e74.svg?invert_in_darkmode&sanitize=true" align=middle width=15.536596349999991pt height=34.81276919999997pt/> - вектор, который определяет направление движения от точки <img src="/formul/76faa63513161cc1ab7da6cadab2dd28.svg?invert_in_darkmode&sanitize=true" align=middle width=16.88074244999999pt height=27.91243950000002pt/> к точке <img src="/formul/63b7e6bc08ae6694a571beebbffead7f.svg?invert_in_darkmode&sanitize=true" align=middle width=33.524663699999984pt height=27.91243950000002pt/>, а <img src="/formul/3cc1484752cc8ef69d55b6991e28be35.svg?invert_in_darkmode&sanitize=true" align=middle width=17.78167709999999pt height=14.15524440000002pt/> - число, задающее размер шага в направлении <img src="/formul/c81f39379f41391225416f647afe2e74.svg?invert_in_darkmode&sanitize=true" align=middle width=15.536596349999991pt height=34.81276919999997pt/>.
-Чтобы найти <img src="/formul/3cc1484752cc8ef69d55b6991e28be35.svg?invert_in_darkmode&sanitize=true" align=middle width=17.78167709999999pt height=14.15524440000002pt/>,используем метод квадратичной интерполяции и скользящего окна.
+Метод наискорейшего спуска. В этом методе αk выбирается из условия минимума функции f(x) вдоль направления <img src="https://bit.ly/2KGLN98" align="center" border="0" alt=" p^{k} " width="24" height="24" />, т.е. <img src="https://bit.ly/2VGPBgC" align="center" border="0" alt="f( x^{k}  +  \alpha_{k}p^{k}) =  \min_{ \alpha > 0}  f( x^{k}  +  \alpha_{k}p^{k})    " width="264" height="24" />. Таким образом, в методе наискорейшего спуска на каждом шаге
+необходимо решать задачу минимизации функции одной переменной.
 
+Алгоритм скользящего окна - нахождение интервалов a и b,где находиться минимум для <img src="https://bit.ly/2W1pBfa" align="center" border="0" alt=" \alpha_{k} " width="24" height="15" />.
 
-
-
-Алгоритм скользящего окна - нахождение интервалов a и b,где находиться минимум для ***.
-Задаем ***, шаг ***
-***
-***
-***
+Выбираем <img src="https://bit.ly/2W4zys3" align="center" border="0" alt=" x^{0} " width="22" height="18" /> и задаем шаг h>0
+<img src="https://bit.ly/3bJT97C" align="center" border="0" alt="1) f(x^{0} - h) > f(x^{0}) < f(x^{0} + h)  \Longrightarrow a = x^{0} - h, b = x^{0} + h " width="467" height="22" />
+<img src="https://bit.ly/3bHmLCs" align="center" border="0" alt="2) f(x^{0} - h) >  f(x^{0} + h)  \Longrightarrow   x^{0} = x^{0} + h/2" width="336" height="22" />
+<img src="https://bit.ly/2xiNE0M" align="center" border="0" alt="3) f(x^{0} - h) <  f(x^{0} + h)  \Longrightarrow   x^{0} = x^{0} - h/2" width="336" height="22" />
 
 
 
