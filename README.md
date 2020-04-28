@@ -47,3 +47,4 @@
 
 ![https://github.com/IvanKhodin/lab6/blob/master/5AD48CCF-FC09-4640-9189-71FAE8829A91](https://github.com/IvanKhodin/lab6/blob/master/5AD48CCF-FC09-4640-9189-71FAE8829A91.jpeg)
 ![https://github.com/IvanKhodin/lab6/blob/master/5E3095B8-A8BB-40C3-BF84-BCA3686BD8E7](https://github.com/IvanKhodin/lab6/blob/master/5E3095B8-A8BB-40C3-BF84-BCA3686BD8E7.jpeg)
+![https://github.com/IvanKhodin/lab6/blob/master/5E3095B8-A8BB-40C3-BF84-BCA3686BD8E7](https://github.com/IvanKhodin/lab6/blob/master/5E3095B8-A8BB-40C3-BF84-BCA3686BD8E7.jpeg)
